@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <title>Register</title>
+    <link rel="icon" href="{{url_for('static',filename='registor.jpg')}}">
+     <link rel="stylesheet" href="{{url_for('static',filename='fount.css')}}">
+
+<style>
+    .body2{
+    margin: 0;
+    height:100vh;  
+    background-image: url("{{ url_for('static', filename='register.jpg') }}");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+</style>
+</head>
+<body class="body2">
+    <h1 class="h5">Registration</h1>
+    <div class="div11">
+        <form action="/register" method="POST">
+            <table class="table2">
+                <tr class="tr3">
+                    <td class="td2"> Name :</td><td><input type="text" placeholder="Enter Your Name" name="newname" class="input2"></td>
+                </tr>
+                <tr class="tr3">
+                    <td class="td2"> Fathername :</td><td><input type="text" placeholder="Enter Your fathername" name="newfathername" class="input2"></td>
+                </tr>
+                <tr class="tr3">
+                    <td class="td2"> Village :</td><td><input type="text" placeholder="Enter Your Village" name="newvillage" class="input2"></td>
+                </tr>
+                <tr class="tr3">
+                    <td class="td2"> Amount :</td><td><input type="number" placeholder="Enter Your Amount" name="amount" class="input2"></td>
+                </tr>
+                
+            </table>
+            <input type="submit" class="input3">
+            <div class="div12">
+                <a href="/register">
+                     <img class="img5" src="{{url_for('static',filename='back.jpg')}}"></img>
+                </a>
+            </div>
+        </form>
+        <div class="div14">
+            <table class="table5">
+                <tr class="tr4">
+                    <td class="td4">contact : +91-9876543210</td>
+                    <td class="td4">abcd@gmail.com</td>
+                    <td class="td4">chennai-india</td>
+                </tr>
+            </table>
+        
+        </div>
+    <div class="div15">
+        <p class="p4"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa atque porro blanditiis eos sint. Dignissimos at libero nihil tenetur maxime excepturi numquam necessitatibus hic rem temporibus, vel amet. At, nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quibusdam deleniti a pariatur dolorem. Ad cupiditate quis aperiam consectetur doloremque. Dolores facere architecto dolore earum inventore voluptates pariatur neque provident.</p>
+    </div>
+</body>
