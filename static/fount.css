@@ -1,0 +1,300 @@
+
+.div2{
+       text-align: center;
+       margin-top: 0px;
+
+    }
+.h1{
+    font-style: oblique;
+    font-size: 100px;
+    color: rgb(40, 234, 248);
+    
+    
+    }
+    
+.div1{
+    text-align: center;
+    margin-top: 3%;
+}
+.img1{
+    height: 50px;
+    width: 210px;
+    
+}
+.div3{
+    text-align: center;
+    margin-top: 6%;
+}
+input{
+    text-align: center;
+    height: 40PX;
+    width: 16%;
+}
+.div4{
+    text-align: center;
+    width: 70%;
+    height: 20%;
+    margin-top: 4%;
+    margin-left: 18%;
+}
+.p1{
+    text-align: center;
+    color: aliceblue;
+}
+.div5{
+    text-align: center;
+    margin-top: -4%;
+}
+.p1:hover{
+    color: rgb(25, 219, 233);
+}
+p:hover{
+    color: rgb(234, 236, 236);
+}
+p{
+    color: aqua;
+}
+
+/* .body1{
+    margin: 0;
+    height:100vh;  
+    background-image: url("{{ url_for('static', filename='background1.png') }}");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+ .div7{
+    display: inline;
+   justify-content: center;
+   
+}
+
+ .input1{
+    
+    height: 30px;
+    width: 170px;
+ }
+ table{
+    margin: auto;
+    margin-top: 15px;
+    margin-left: 510px;
+ }
+ 
+/* tr{
+    height: 50px;
+    padding-left: 10%;
+ */
+
+td{
+    padding: 10px;
+}  
+.div6{
+    text-align: center;
+    width: 70%;
+    height: 20%;
+    margin-top: 5%;
+    margin-left: 18%;
+}
+.p3{
+    color: black;
+
+}
+.p3:hover{
+    color: black;
+}
+.div8{
+    text-align: center;
+    margin-top: -3%;
+}
+.input3{
+    margin-top: 20px;
+    margin-left: 49%;
+    width: 100px;
+    height: 35px;
+    border-style: inset;
+    border-width: 2px;
+    border-color: black;
+}
+.td:hover{
+    color: aliceblue;
+
+}
+.div9{
+    margin-top: -21%;
+   margin-left: 5%;
+}
+.img4{
+    width: 27%;
+}
+.div10{
+    margin-left: 90%;
+    margin-top: 80PX;
+}
+.img5{
+    width: 50px;
+}
+.h5{
+    color: rgb(111, 228, 228); 
+    font-size: 50px;
+    margin-left: 39%;
+}
+.div11{
+    margin-top: 3%;
+    
+    
+}
+.input3{
+    margin-left: 49%;
+}
+.input2{
+    width: 170px;
+    height: 30px;
+
+}
+.td2{
+    color: aquamarine;
+}
+.div12{
+    margin-top: 10%;
+    margin-left: 88%;
+}
+.td4{
+    color: rgb(236, 242, 243);
+    padding: 30px;
+}
+.td4:hover{
+    color: rgb(252, 3, 3);
+}
+.div14{
+    margin-top: -9%;
+    margin-left: -40px;
+}
+.p4{
+    width: 60%;
+    text-align: center;
+    color: rgb(218, 218, 218);
+}
+.p4:hover{
+    color: aliceblue;
+}
+.div15{
+    margin-top: -38%;
+    margin-left: 74%;
+}
+
+.h6{
+ color:rgb(149, 204, 248);
+ font-size: 50px;
+}
+.div17{
+    margin-left: 38%;
+    margin-top: -10px;
+}
+.h7{
+    font-size: 35px;
+}
+.div18{
+    margin-left: 30%;
+    margin-top: -16px;
+}
+.div16{
+ margin-left: 40%;   
+ margin-top: 10px;
+}
+.img7{
+    width: 40%;
+    height: 40%;
+}
+.div19{
+    margin-top: -24%;
+    margin-left: 42%;
+}
+.div20{
+    margin-top: -24%;
+    margin-left: 42%;
+}
+.h9{
+    color: rgb(207, 86, 171);
+    font-size: 50px;
+}
+.h8{
+    font-style:italic;
+}
+.div21{
+    margin-top: 19%;
+    margin-left: 47%;
+}
+.img8{
+    width: 100px;
+}
+.div22{
+margin-left: 48%;
+}
+.img9{
+    width: 100px;
+}
+.div23{
+    margin-top: -32%;
+    margin-left: 42%;
+
+}
+.h10{
+    font-style: italic;
+}
+.div24{
+    margin-left:41%;
+}
+.div27{
+
+    margin-left:30%;
+    margin-top: 7%;
+}
+.hh{
+    font-size: 40px;
+}
+.img10{
+    width: 23%;
+}
+.div28{
+    margin-left: 48%;
+    margin-top:4%;
+}
+.div29{
+    width: 85%;
+    text-align: center;
+    margin-left: 8%;
+}
+.img11{
+    width: 20%;
+}
+.div30{
+    margin-left: 48%;
+    margin-top: 4%;
+}
+
+.div33{
+    margin-left: 45%;
+    margin-top: 5%;
+}
+.img16{
+    width: 20%;
+}
+
+.div31{
+    margin-left: 24%;
+}
+.h1h{
+font-size: 50px;
+color: aliceblue;
+}
+.div32{
+    margin-left: 43%;
+    margin-top: 6%;
+}
+.img15{
+    width: 25%;
+}
+.div34{
+    text-align: center;
+    margin-top: 3%;
+}
