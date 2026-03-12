@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <head>
     <title>Register</title>
@@ -53,4 +54,61 @@
     </div>
 </body>
 
+=======
+<!DOCTYPE html>
+<head>
+    <title>Register</title>
+    <link rel="icon" href="{{url_for('static',filename='registor.jpg')}}">
+     <link rel="stylesheet" href="{{url_for('static',filename='fount.css')}}">
+
+<style>
+    .body1{
+    margin: 0;
+    height:100vh;  
+    background-image: url("{{ url_for('static', filename='background1.png') }}");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+</style>
+</head>
+<body class="body1">
+    <div class="div6">
+        <p class="p3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias deleniti necessitatibus ex error sed, repellat sunt atque! Eligendi tempore dolorem libero atque? Iste ipsa necessitatibus delectus nobis ex ea atque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut aspernatur obcaecati consequuntur laudantium enim earum praesentium iusto ab inventore, optio nesciunt architecto tenetur quas voluptatem eaque expedita veniam. Sint, soluta!</p>
+    </div>
+    <div class="div8">
+        <h1 class="h4">ENTER YOUR DATAS</h1>
+    </div>
+    
+    <div class="div7">
+        <form action="/shows" method="POST">
+        <table>
+            <tr>
+                <td class="td">Name</td>
+                <td><input type="text" class="input1"name='name' placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td class="td">Fathername</td>
+                <td><input type="text" class="input1" name="fathername" placeholder=" Enter your father name"></td>
+            </tr>
+            <tr>
+                <td class="td">Village</td>
+                <td><input type="text" class="input1" name="village" placeholder=" Enter your village"></td>
+            </tr>
+            
+        </table>
+        <input class="input3" type="submit" style="font-family: 'Courier New', Courier, monospace;"">
+        </form>
+    </div>
+    <div class="div9">
+        <img class="img4" src="{{url_for('static',filename='chess.webp')}}"></img>
+    </div>
+    <div class="div10">
+        <a href="/home">
+        <img class="img5" src="{{url_for('static',filename='back.jpg')}}"></img>
+        </a>
+    </div>
+</body>
+
+>>>>>>> ff006437c2b13a0d7766ea73784e191e1e89c0f5
 </html>

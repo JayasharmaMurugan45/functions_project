@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <head>
     <title>Register</title>
@@ -46,3 +47,53 @@
         </a>
     </div>
 </body>
+=======
+<!DOCTYPE html>
+<head>
+    <title>Register</title>
+    <link rel="icon" href="{{url_for('static',filename='registor.jpg')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='fount.css')}}">
+</head>
+<head >
+    <style>
+        .bodys{
+            height: 100vh;
+            margin: 0;
+            background-image: url("{{ url_for('static', filename='success1.jpg') }}");
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-position: center;
+            
+        }
+    </style>
+
+</head>
+<body class="bodys">
+    <div class="div17">
+        <h1 class="h6">Congratulations</h1>
+    </div>
+    <div class="div18">
+        <h3 class="h7">You have successfully submitted your datas</h3>
+    </div>
+    <div class="div16">
+        <img class="img7" src="{{url_for('static',filename='success2.jpg')}}"></img>
+    </div>
+    <div class="div19">
+        <ul>
+            <h1 class="h8">{{na}} </h1>
+            <h1 class="h8">{{fa}} </h1>
+            <h1 class="h8">{{va}} </h1>
+            <h1 class="h8">{{am}} </h1>
+        </ul>
+        
+    </div>
+    <div class="div20">
+        <h1 class="h9">Thank You!!!</h1>
+    </div>
+    <div class="div21">
+        <a href="/home">
+        <img class="img8" src="{{url_for('static',filename='success3.png')}}"> </img>
+        </a>
+    </div>
+</body>
+>>>>>>> ff006437c2b13a0d7766ea73784e191e1e89c0f5
