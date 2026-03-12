@@ -1,7 +1,7 @@
 from flask import Flask,render_template,request
 from database import connection
 app=Flask(__name__)
-@app.route('/')
+@app.route('/home')
 def reg():
     return render_template("home_page.html")
 @app.route("/search")
