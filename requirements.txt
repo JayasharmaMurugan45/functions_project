@@ -1,8 +1,3 @@
-<<<<<<< HEAD
 Flask
 gunicorn
-=======
-Flask
-gunicorn
->>>>>>> ff006437c2b13a0d7766ea73784e191e1e89c0f5
 mysql-connector-python
