@@ -36,7 +36,7 @@ def jaa():
     con=connection()
     cur=con.cursor()    
     if n and f and v and a:
-        query="select name,fathername from register where name=%s and fathername=%s"
+        query="select name,fathername from register  where name=%s and fathername=%s"
         cur.execute(query,(n,f,))
         value=cur.fetchall()
        
