@@ -8,6 +8,8 @@ def connection():
     cur.execute(query)
 
     con.commit()
+    cur.close()
+    con.close()
     return con
     
 connection()
