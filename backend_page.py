@@ -12,9 +12,9 @@ def jaya():
     return render_template('register.html')
 @app.route('/shows',methods=['GET','post'])
 def jayas():
-    names=request.form.get('name')
-    fathernames=request.form.get('fathername')
-    villages=request.form.get('village')
+    names=request.form.get('name').strip()
+    fathernames=request.form.get('fathername').strip()
+    villages=request.form.get('village').strip()
     con=connection()
     cur=con.cursor()
     if names and fathernames and villages:
