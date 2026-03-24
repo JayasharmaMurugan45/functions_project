@@ -20,7 +20,7 @@ def jayas():
     if names and fathernames and villages:
         query="select * from register where name=%s and fathername=%s and village=%s"
         cur.execute(query,(names,fathernames,villages,))
-        valus=cur.fetchone()
+        valus=cur.fetchall()
         if valus:
             return render_template('datashowing.html',name=valus[1],fathername=valus[2],village=valus[3],amount=valus[4])
         else:
