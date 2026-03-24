@@ -11,15 +11,15 @@ def jay():
 def jaya():
     return render_template('register.html')
 @app.route('/shows',methods=['GET','post'])
-def jayas():
+def search_records():
     names=request.form.get('name')
     fathernames=request.form.get('fathername')
     villages=request.form.get('village')
     con=connection()
     cur=con.cursor()
     if names and fathernames and villages:
-        query="select * from register where name=%s and fathername=%s and village=%s"
-        cur.execute(query,(names,fathernames,villages,))
+        query = "SELECT * FROM register WHERE name=%s AND fathername=%s AND village=%s"
+        cur.execute(query, (names, fathernames, villages))
         valus=cur.fetchone()
         if valus:
             return render_template('datashowing.html',name=valus[0],fathername=valus[1],village=valus[2],amount=valus[3])
@@ -28,7 +28,7 @@ def jayas():
     else:
         return render_template('error.html')
 @app.route('/register',methods=['GET','post'])
-def jaa():
+def register_page():
     n=request.form.get("newname")
     f=request.form.get("newfathername")
     v=request.form.get("newvillage")
